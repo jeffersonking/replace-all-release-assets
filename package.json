@@ -1,0 +1,30 @@
+{
+	"name": "replace-all-release-assets",
+	"version": "0.0.0",
+	"description": "Deletes all preexisting assets, then uploads new ones.",
+	"main": "index.js",
+	"scripts": {
+		"start": "ncc build action.js -o ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jeffersonking/replace-all-release-assets.git"
+	},
+	"keywords": [
+		"actions",
+		"node"
+	],
+	"author": "Jeff King",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jeffersonking/replace-all-release-assets/issues"
+	},
+	"homepage": "https://github.com/jeffersonking/replace-all-release-assets#readme",
+	"dependencies": {
+		"@actions/core": "1.2.3",
+		"@actions/github": "2.1.1"
+	},
+	"devDependencies": {
+		"@zeit/ncc": "0.22.1"
+	}
+}
